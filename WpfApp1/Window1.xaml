@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window1" Height="600" Width="400">
+    <Grid>
+
+        <TextBlock x:Name="firstNameblock" Margin="128,77,128,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="43" Width="144" Background="#FFFFDADA" FontSize="20" TextAlignment="Justify"/>
+
+        <TextBlock TextAlignment="Justify" FontSize="20" Foreground="Black"  x:Name="lastNameblock" HorizontalAlignment="Center" Margin="0,172,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="43" Width="144" Background="#FFFFDADA"/>
+
+
+        <TextBlock TextAlignment="Justify" FontSize="20" x:Name="emailblock" HorizontalAlignment="Center" Margin="0,279,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="43" Width="144" Background="#FFFFDADA"/>
+
+
+        <TextBlock TextAlignment="Justify" FontSize="20" x:Name="passwordBlock" HorizontalAlignment="Center" Margin="0,375,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="144" Background="#FFFFDADA"/>
+
+
+        <Button Content="Populate User" Margin="142,492,142,45" Click="Button_Click"/>
+
+
+
+    </Grid>
+</Window>
